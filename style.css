@@ -1,0 +1,851 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+    /* color: white; */
+}
+                                                                /* navbar yahaan se start ho raha */
+
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.nav-logo{
+    height: 50px;
+    width: 112px;
+}
+.logo{
+    background-image: url(assets/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 112px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    gap: 5px;
+}
+.style1{
+    font-size: 12px;
+    color: #cccccc;
+}
+.style2{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* search bar yahaan se start ho raha */
+.nav-searchb{
+    height: 40px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.nav-searchb:hover{
+    border: 3px solid #f08804;
+    border-radius: 7px;
+}
+.ddown select{
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    background-color: #e6e6e6;
+    color: black;
+    width: 52px;
+    height: 40px;
+    border:0 ;
+    padding: 7px;
+}
+.ddown select:hover{
+    background-color: #c8c7c7;
+}
+.ddown option{
+    color: black;
+    background-color: white;
+}
+.sbar input{
+    background-color: white;
+    color: black;
+    width: 900px;
+    height: 40px;
+    padding-left: 10px;
+    border: 0;
+    font-size: 1rem;
+}
+.sbutton{
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+    width: 52px;
+    height: 40px;
+    border:0 ;
+}
+.sbutton:hover{
+    background-color: #f08804;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.account .signin{
+    color:white;
+}
+.r-o{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.r-o .return{
+    color: white;
+}
+.cart i{
+    font-size: 25px;
+}
+.cart{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* panel yahaan se start ho raha */
+.panel{
+    color: white;
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 10px;
+    padding-left: 20px;
+}
+.all{
+    font-size: 14px;
+    font-weight: bold;
+}
+.all i{
+    font-size: 20px;
+}
+.panel-ops{
+    width: 95%;
+    font-size: 15px;
+    display: flex;
+    align-items:center ;
+    gap:15px;
+}
+                                                                    /* hero section yahaan se start ho raha */
+.hero-section{
+    background-image: url(assets/hero-img.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #f5f6f6;
+    height: 40px;
+    width: 95%;
+    font-size: 14px;
+    margin-bottom: 105px;
+}
+.msg a{
+    color: #007185;
+}
+                                                                        /* shop section  */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    /* background-color: transparent; */
+    flex-wrap: wrap;
+    gap: 5px;
+    color: black;
+    margin-top: -85px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box{
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+}
+.box9{
+    width: 97%;
+    height: 330px;
+    padding-left: 20px;
+}
+                                                                /* scrollbar start */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(98, 97, 97); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0); 
+  }
+                                                             /* scrollbar end */
+.box-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.box h2{
+    color: black;
+    font-size: 21px;
+}
+.img{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.b5img1{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.b5img2{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.simg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.box-img9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 281px;
+    overflow: scroll;
+    gap: 20px;
+}
+.box-img9 .img{
+    height: 250px;
+    width: 120px;
+}
+.img-9{
+    width: 250px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-9 img{
+    width: 250px;
+    height: 120px;
+}
+.box-img{
+    display: flex;
+    flex-direction: column;
+    height: 304px;
+}
+.img1,.img2,.img3,.img4{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 10px;
+    gap: 5px;
+}
+/* .img1 p,.img2 p,.img3 p,.img4 p{
+    color: rgb(71, 71, 71);
+    font-size: 12px;
+} */
+.box-img p{
+    color: rgb(71, 71, 71);
+    font-size: 12px;
+}
+.imgpehla{
+    display: flex;
+}
+.imgdoosra{
+    display: flex;
+}
+.b7img img{
+    height: 275px;
+}
+.box-content{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.box a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px;
+}
+.box a:hover{
+    color: #f08804;
+}
+
+                                                  /* last */
+.last{
+    height: 150px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.last .buttonarea{
+    color: black;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
+.buttonarea a{
+    text-decoration: none;
+    color: #007185;
+}
+.buttonarea button{
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #ffcd50;
+    border:1px solid #f08804;
+    width: 200px;
+    height: 30px;
+}
+.line{
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.422);
+    width: 95%;
+}
+                                                        /* footer */
+.sec1{
+    height: 50px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color:#38475b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2{
+    height: 500px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.sec2 .boxes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80%px;
+    display: flex;
+    gap: 40px;
+}
+.sec2 .box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 230px;
+    background-color: #232F3E;
+    color: white;
+    justify-content: flex-start;
+}
+.points ul{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.points ul li:hover{
+    text-decoration: underline;
+}
+.points4 ul{
+    width: 58%;
+}
+.logob{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.logob button{
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color: rgb(194, 190, 190);
+    width: 140px;
+    height: 32px;
+}
+.logob .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.uslogo{
+    height:10px;
+    width:18px;
+    padding-right: 7px;
+}
+.sec2 .box ul{
+    padding-top: 5px;
+    font-size: 14px;
+    list-style-type: none;
+    color: #DDDDDD;
+}
+.sec3{
+    height: 500px;
+    width: 100%;
+    background-color:#131A22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* last ka section 3 start */
+.sec3{
+    display: flex;
+    flex-direction: column;
+}
+.sec3 .boxes{
+    height: 400px;
+    width: 70%;
+    background-color:#131A22;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.sec3 .boxes .box:hover{
+    text-decoration: underline;
+}
+.sec3 .boxes .box h6{
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.sec3 .box{
+    padding-top: 0;
+    height: 10px;
+    width: 100px;
+    background-color:#131A22;
+    color: rgb(194, 190, 190);
+}
+.sec3 .box p{
+    font-size: 11px;
+    
+}
+.sec3 .boxes .box22{
+    grid-column: 2/2;
+}
+.sec3 .t_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    color: white;
+    font-size: 12px;
+    gap: 5px;
+}
+.sec3 .t_c .list1 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+}
+.sec3 .t_c .list1 ul li:hover{
+    text-decoration: underline;
+}
+/* media query yahaan se start horaha hai */
+@media screen and (max-width:1300px) {
+    .navbar{
+        height: 35px;
+    }
+    .nav-logo{
+        height: 30px;
+        width: 65px;
+    }
+    .logo{
+        height: 30px;
+        width: 65px;
+    }
+    .border{
+        border: 1px solid transparent;
+    }
+    .border:hover{
+        border: 1px solid white;
+    }
+    .loc-logo i{
+        font-size: 12px;
+    }
+    .style1{
+        font-size: 4px;
+    }
+    .style2{
+        font-size: 6px;
+    }
+    .nav-searchb{
+        height: 20px;
+        width: 130px;
+    }
+    .nav-searchb:hover{
+        border: 1.5px solid #f08804;
+    }
+    .ddown,.ddown form{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .ddown select{
+        width: 26px;
+        height: 18px;
+        border:0 ;
+        padding: 0px;
+        font-size: 5px;
+    }
+    .sbar,.sbar form{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .sbar input{
+        width: 80px;
+        height: 18px;
+        padding-left: 5px;
+        border: 0;
+        font-size: 0.4rem;
+    }
+    .sbutton{
+        width: 26px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .cart i{
+        font-size: 10px;
+    }
+    .panel{height: 20px;
+        gap: 5px;
+        padding-left: 10px;
+    }
+    .all{
+        font-size: 6px;
+        font-weight: bold;
+    }
+    .all i{
+        font-size: 8px;
+    }
+    .panel-ops{
+        font-size: 6px;
+        gap:5px;
+    }
+    .hero-section{
+        height: 200px;
+    }
+    .msg{
+        height: 20px;
+        font-size: 6px;
+        margin-bottom: 100px;
+    }
+    .shop-section{
+        display: flex;
+        justify-content: space-evenly;
+        background-color:#e2e7e6;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: -82px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .box{
+        background-color: white;
+        color: black;
+        height: 150px;
+        width: 30%;
+        padding: 5px 0px 8px;
+        margin-top: 0px;
+        display: flex;
+    }
+    .box-img{
+        height: 100px;
+    }
+    .box-img img{
+        height: 100px;
+        width: 100px;
+    }
+    .img1 img,.img2 img,.img3 img,.img4 img{
+        height: 30px;
+        width: 50px;
+    }
+    .b7img img{
+        height: 95px;
+        width: 90px;
+    }
+    .box9{
+        width: 97%;
+        height: 330px;
+        padding-left: 20px;
+    }
+    .box-content{
+        gap: 2px;
+    }
+    .box h2{
+        font-size: 10px;
+    }
+    .img{
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .b5img1{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .b5img1 img{
+        height: 55px;
+        width: 90px;
+    }
+    .b5img2 img,.b5img3 img,.b5img4 img{
+        width: 25px;
+        height: 20px;
+    }
+    .b5img2{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+    .simg{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .box9{
+        height: 130px;
+    }
+    .box-img9{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100px;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .box-img9 .img-9{
+        height: 50px;
+        width: 90px;
+    }
+    .box-img9 .img-9 img{
+        height: 50px;
+        width: 90px;
+    }
+    .img-9{
+        width: 250px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-9 img{
+        width: 250px;
+        height: 120px;
+    }
+    .img-n img{
+        width: 50px;
+        height: 50px;
+    }
+    .img1,.img2,.img3,.img4{
+        margin: 5px;
+        gap: 2px;
+    }
+    .box-img p{
+        font-size: 6px;
+    }
+    .box-content{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .box a{
+        font-size: 6px;
+    }
+    .last{
+        height: 75px;
+        gap: 15px;
+    }
+    .last .buttonarea{
+        gap: 2px;
+        font-size: 6px;
+    }
+    .buttonarea button{
+        width: 100px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .uslogo{
+        height: 7px;
+        width: 11px;
+        padding-right: 3px;
+    }
+    .sec1{
+        height: 25px;
+        width: 100%;
+        font-size: 6px;
+    }
+    .sec2{
+        height: 250px;
+        width: 100%;
+    }
+    .sec2 .boxes{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        height: 80%;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    .sec2 .box{
+        gap: 5px;
+        height: 100%;
+        width: 100px;
+    }
+    .sec2 .box h4{
+        font-size: 10px;
+    }
+    .points ul{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .points ul li{
+        font-size: 6px;
+    }
+    .points ul li:hover{
+        text-decoration: underline;
+    }
+    .points4 ul{
+        width: 44%;
+    }
+    .logob{
+        gap: 50px;
+    }
+    .logob button{
+        border-radius: 4px;
+        width: 70px;
+        height: 16px;
+        font-size: 7px;
+    }
+    .logob .buttons{
+        gap: 5px;
+    }
+    .sec2 .box ul{
+        padding-top: 5px;
+        font-size: 5px;
+    }
+    .sec3{
+        height: 300px;
+        width: 100%;
+    }
+    /* last ka section 3 start */
+    .sec3{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3 .boxes{
+        height: 400px;
+        width: 90%;
+        margin-right: 0px;
+        margin-left: 7px;
+        margin-top: 20px;
+        gap: 5px;
+    }
+    .sec3 .boxes .box:hover{
+        text-decoration: underline;
+    }
+    .sec3 .boxes .box h6{
+        font-size: 7px;
+    }
+    .sec3 .box{
+        padding-right: 0px;
+        height: 10px;
+        width: 45px;
+    }
+    .sec3 .box p{
+        font-size: 5px;    
+    }
+    .sec3 .boxes .box22{
+        grid-column: 2/2;
+    }
+    .sec3 .t_c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        color: white;
+        font-size: 6px;
+        gap: 5px;
+    }
+    .sec3 .t_c .list1 ul{
+        list-style-type: none;
+        display: flex;
+        gap: 5px;
+    }
+    .sec3 .t_c .list1 ul li:hover{
+        text-decoration: underline;
+    }
+}

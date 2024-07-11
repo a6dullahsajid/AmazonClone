@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon(Clone)</title>
+    <link rel="shortcut icon" href="amazoico.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+        <div class="nav-address border">
+          <div class="loc-logo">
+            <i class="fa-solid fa-location-dot" style="color: white"></i>
+          </div>
+          <div class="loc">
+            <div class="hloc style1">Deliver to</div>
+            <div class="nloc style2">India</div>
+          </div>
+        </div>
+        <div class="nav-searchb">
+          <div class="ddown">
+            <form action="/action_page.php">
+              <label for="language"></label>
+              <select id="cars" name="cars">
+                <option value="All">All</option>
+                <option value="Arts & Craft">Arts & Craft</option>
+                <option value="Automotive">Automotive</option>
+                <option value="Baby">Baby</option>
+                <option value="Beauty & Personal">Beauty & Personal</option>
+                <option value="Books">Books</option>
+                <option value="Boys' Fashion">Boys' Fashion</option>
+                <option value="Computers">Computers</option>
+                <option value="Deals">Deals</option>
+                <option value="Digital Music">Digital Music</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Girls' Fashion">Girls' Fashion</option>
+                <option value="Health & Household">Health & Household</option>
+                <option value="Home & Kitchen">Home & Kitchen</option>
+                <option value="Industrial & Scientific">
+                  Industrial & Scientific
+                </option>
+                <option value="Luggage">Luggage</option>
+              </select>
+            </form>
+          </div>
+          <div class="sbar">
+            <form >
+              <input type="text" id="search" placeholder="Search Amazon" />
+            </form>
+          </div>
+          <div class="sbutton">
+            <i class="fa-solid fa-magnifying-glass" style="color: #0f1111"></i>
+          </div>
+        </div>
+        <div class="account border">
+          <div class="signin style1">Hello, sign in</div>
+          <div class="acc style2">Account & Lists</div>
+        </div>
+        <div class="r-o border">
+          <div class="return style1">Returns</div>
+          <div class="orders style2">& Orders</div>
+        </div>
+        <div class="cart border style2">
+          <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+          Cart
+        </div>
+      </div>
+      <div class="panel">
+        <div class="all border">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          All
+        </div>
+        <div class="panel-ops">
+          <p class="border">Today's Deals</p>
+          <p class="border">Customer Service</p>
+          <p class="border">Registry</p>
+          <p class="border">Gift Cards</p>
+          <p class="border">Sell</p>
+        </div>
+      </div>
+    </header>
+    <div class="hero-section">
+      <div class="msg">
+        You are on amazon.com. You can also shop on Amazon India for millions of
+        products with fast local delivery.
+        <a
+          href="https://www.amazon.com/gp/redirect.html/?ie=UTF8&_encoding=UTF8&location=https%3A%2F%2Fwww.amazon.in%2F%3Fref%3Daisgw_intl_stripe_in&source=standards&token=91F73851318D7EEF2C0295B2C04EF4042B988FD2&pd_rd_w=lW6Rh&content-id=amzn1.sym.ad7e52ed-7e0b-44e3-85c1-b8a893426b20&pf_rd_p=ad7e52ed-7e0b-44e3-85c1-b8a893426b20&pf_rd_r=0RYJAKT5RMZBC9Y9HMDV&pd_rd_wg=mcpIK&pd_rd_r=cd7144c0-8b0a-46fb-8d80-faca028d4fc8&ref_=pd_hp_d_atf_unk"
+        >
+          Click here to go to amazon.in
+        </a>
+      </div>
+    </div>
+    <div class="shop-section">
+      <div class="box box1">
+        <div class="box-content">
+          <h2>Gaming accessories</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box1/headphone.jpg" alt="" />
+                <p>Headset</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box1/keyboard.jpg" alt="" />
+                <p>Keyboard</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box1/mouse.jpg" alt="" />
+                <p>Mouse</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box1/chairs.jpg" alt="" />
+                <p>Chair</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box2">
+        <div class="box-content">
+          <h2>Shop deals in Fashion</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box2/jeans.jpg" alt="" />
+                <p>Jeans under $50</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box2/tops.jpg" alt="" />
+                <p>Tops under $25</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box2/dress.jpg" alt="" />
+                <p>Dressses under $30</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box2/shoes.jpg" alt="" />
+                <p>Shoes under $50</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box3">
+        <div class="box-content">
+          <h2>Deals in PCs</h2>
+          <div class="box-img">
+            <div class="img">
+              <img src="assets/box3/box3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box4">
+        <div class="box-content">
+          <h2>Refresh your space</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box4/dining.jpg" alt="" />
+                <p>Dining</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box4/home.jpg" alt="" />
+                <p>Home</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box4/kitchen.jpg" alt="" />
+                <p>Kitchen</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box4/h&b.jpg" alt="" />
+                <p>Health and Beauty</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box5">
+        <div class="box-content">
+          <h2>Amazon Gadget Store</h2>
+          <div class="box-img">
+            <div class="b5img1">
+              <img src="assets/box5/smartphones.jpg" alt="" />
+              <p>Smartphones</p>
+            </div>
+            <div class="b5img2">
+              <div class="simg">
+                <img src="assets/box5/tablets.jpg" alt="" />
+                <p>Tablets</p>
+              </div>
+              <div class="simg">
+                <img src="assets/box5/laptops.jpg" alt="" />
+                <p>Laptops</p>
+              </div>
+              <div class="simg">
+                <img src="assets/box5/TVs.jpg" alt="" />
+                <p>TVs</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box6">
+        <div class="box-content">
+          <h2>Deals on gifts for Dad</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box6/tech.jpg" alt="" />
+                <p>Tech</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box6/advgear.jpg" alt="" />
+                <p>Adventure gear</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box6/ufinds.jpg" alt="" />
+                <p>Unique finds</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box6/h&w.jpg" alt="" />
+                <p>Health and wellness</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box7">
+        <div class="box-content">
+          <h2>Top deal</h2>
+          <div class="box-img">
+            <div class="img1 b7img">
+              <img src="assets/box7/box7.jpg" alt="" />
+              <p>Medicube AGe-R Booster Pro</p>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box8">
+        <div class="box-content">
+          <h2>Fashion trends you like</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box8/dress.jpg" alt="" />
+                <p>Dresses</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box8/knits.jpg" alt="" />
+                <p>Knits</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box8/jackets.jpg" alt="" />
+                <p>Jackets</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box8/jewelry.jpg" alt="" />
+                <p>Jewelry</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box9">
+        <div class="box-content">
+          <h2>Best Sellers in Sports & Outdoors</h2>
+          <div class="box-img9">
+            <div class="img-9">
+              <img src="assets/box9/dumbell.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/kit.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/roll.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box9/bottle.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/mat.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/A4.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/gadda.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/hball.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box9/tball.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box9/icepack.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/skipping rope.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/chhatri.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/fireblanket.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/stretch.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box9/towel.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box9/tube.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box box9">
+        <div class="box-content">
+          <h2>New international customers purchased</h2>
+          <div class="box-img9">
+            <div class="img-n">
+              <img src="assets/box10/bottle.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak1.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak2.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak3.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak4.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box10/glass.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/watch.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box10/cutter.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak5.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/powder.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/cream.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak6.jpg" alt="" />
+            </div>
+            <div class="img-9">
+              <img src="assets/box10/nail.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/plastic.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak7.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak8.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box10/pustak9.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box box2">
+        <div class="box-content">
+          <h2>Level up your gaming</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box11/laptop.jpg" alt="" />
+                <p>PC Gaming</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box11/xbox.jpg" alt="" />
+                <p>Xbox</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box11/ps.jpg" alt="" />
+                <p>Play Station</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box11/nintendo.jpg" alt="" />
+                <p>Nintendo Switch</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box2">
+        <div class="box-content">
+          <h2>Level up your beauty routine</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box12/makeup.jpg" alt="" />
+                <p>Makeup</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box12/brushes.jpg" alt="" />
+                <p>Brushes</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box12/sponges.jpg" alt="" />
+                <p>Sponges</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box12/mirros.jpg" alt="" />
+                <p>Mirrors</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box2">
+        <div class="box-content">
+          <h2>Gaming merchandise</h2>
+          <div class="box-img">
+            <div class="imgpehla">
+              <div class="img1 img">
+                <img src="assets/box13/apparel.jpg" alt="" />
+                <p>Apparel</p>
+              </div>
+              <div class="img2 img">
+                <img src="assets/box13/hats.jpg" alt="" />
+                <p>Hats</p>
+              </div>
+            </div>
+            <div class="imgdoosra">
+              <div class="img3 img">
+                <img src="assets/box13/action.jpg" alt="" />
+                <p>Action figures</p>
+              </div>
+              <div class="img4 img">
+                <img src="assets/box13/mugs.jpg" alt="" />
+                <p>Mugs</p>
+              </div>
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box3">
+        <div class="box-content">
+          <h2>Deals on shoes</h2>
+          <div class="box-img">
+            <div class="img">
+              <img src="assets/box14/box14.jpg" alt="" />
+            </div>
+          </div>
+          <div class="more">
+            <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="box box9">
+        <div class="box-content">
+          <h2>Popular items this season</h2>
+          <div class="box-img9">
+            <div class="img-n">
+              <img src="assets/box15/bts.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/watch.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book1.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/trimmer.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/cream.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/remote.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book2.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book3.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book4.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book5.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book6.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/book7.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/watch2.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/stainless.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/vr.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/camera.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/radio.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/phone.jpg" alt="" />
+            </div>
+            <div class="img-n">
+              <img src="assets/box15/lapptop.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="last">
+      <div class="line"></div>
+      <div class="buttonarea">
+        <p>See personalized recommendations</p>
+        <button>Sign in</button>
+        <p>
+          New customer?<a
+            href="https://www.amazon.com/ap/register?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Drhf_sign_in&openid.assoc_handle=usflex"
+            >Start here</a
+          >
+        </p>
+      </div>
+      <div class="line"></div>
+    </div>
+  </body>
+  <footer>
+    <div class="sec1">
+      <div class="bar">Back to top</div>
+    </div>
+    <div class="sec2">
+      <div class="boxes">
+        <div class="box">
+          <h4>Get to know us</h4>
+          <div class="points">
+            <ul>
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>About Amazon</li>
+              <li>Investor Relations</li>
+              <li>Amazon Devices</li>
+              <li>Amazon Science</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Make Money with us</h4>
+          <div class="points">
+            <ul>
+              <li>Sell products on Amazon</li>
+              <li>Sell on Amazon Business</li>
+              <li>Sell apps on Amazon</li>
+              <li>Become an Affiliate</li>
+              <li>Advertise Your Products</li>
+              <li>Self-Publish with Us</li>
+              <li>Host an Amazon Hub</li>
+              <li>›See More Make Money with Us</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Amazon Payment Products</h4>
+          <div class="points">
+            <ul>
+              <li>Amazon Business Card</li>
+              <li>Shop with Points</li>
+              <li>Reload Your Balance</li>
+              <li>Shipping Rates & Policies</li>
+              <li>Amazon Currency Converter</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <h4>Let us help you</h4>
+          <div class="points points4">
+            <ul>
+              <li>Amazon and COVID-19</li>
+              <li>Your Account</li>
+              <li>Your Orders</li>
+              <li>Shipping Rates & Policies</li>
+              <li>Returns & Replacements</li>
+              <li>Manage Your Content and Devices</li>
+              <li>Amazon Assistant</li>
+              <li>Help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="logob">
+        <div class="logo"></div>
+        <div class="buttons">
+          <button>
+            <i class="fa-solid fa-globe" style="color: #ffffff"></i> English
+          </button>
+          <button>$USD-U.S.Dollar</button>
+          <button>
+            <img class="uslogo"
+              src="assets/usbutton/uslogo.png"
+              alt=""
+            />United States
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="sec3">
+      <div class="boxes">
+        <div class="box">
+          <h6>Amazon Music</h6>
+          <p>Stream millions of songs</p>
+        </div>
+        <div class="box">
+          <h6>Amazon ads</h6>
+          <p>Reach customers wherever they spend their time</p>
+        </div>
+        <div class="box">
+          <h6>6pm</h6>
+          <p>Score deals on fashion</p>
+        </div>
+        <div class="box">
+          <h6>AbeBooks</h6>
+          <p>Books, art & collectibles</p>
+        </div>
+        <div class="box">
+          <h6>ACX</h6>
+          <p>Audiobook publishing made easy</p>
+        </div>
+        <div class="box">
+          <h6>Sell on Amazon</h6>
+          <p>Start a Selling Account</p>
+        </div>
+        <div class="box">
+          <h6>Amazon Business</h6>
+          <p>Everything for your business</p>
+        </div>
+        <div class="box">
+          <h6>AmazonGlobal</h6>
+          <p>Ship Orders Internationally</p>
+        </div>
+        <div class="box">
+          <h6>Home Services</h6>
+          <p>Experienced Pros Happiness Guarantee</p>
+        </div>
+        <div class="box">
+          <h6>Amazon Web Services</h6>
+          <p>Scalable Cloud Computing Services</p>
+        </div>
+        <div class="box">
+          <h6>Audible</h6>
+          <p>Listen to Books & Original Audio Performances</p>
+        </div>
+        <div class="box">
+          <h6>Box Office Mojo</h6>
+          <p>Find Movie Box Office Data</p>
+        </div>
+        <div class="box">
+          <h6>Goodreads</h6>
+          <p>Book reviews & recommendations</p>
+        </div>
+        <div class="box">
+          <h6>IMDb</h6>
+          <p>Movies, TV & Celebrities</p>
+        </div>
+        <div class="box">
+          <h6>IMDbPro</h6>
+          <p>Get Info Entertainment Professionals Need</p>
+        </div>
+        <div class="box">
+          <h6>Kindle Direct Publishing</h6>
+          <p>Indie Digital & Print Publishing Made Easy</p>
+        </div>
+        <div class="box">
+          <h6>Prime Video Direct</h6>
+          <p>Video Distribution Made Easy</p>
+        </div>
+        <div class="box">
+          <h6>Shopbop</h6>
+          <p>Designer Fashion Brands</p>
+        </div>
+        <div class="box">
+          <h6>Woot!</h6>
+          <p>Deals and Shenanigans</p>
+        </div>
+        <div class="box">
+          <h6>Zappos</h6>
+          <p>Shoes & Clothing</p>
+        </div>
+        <div class="box">
+          <h6>Ring</h6>
+          <p>Smart Home Security Systems</p>
+        </div>
+        <div class="box box22">
+          <h6>eero WiFi</h6>
+          <p>Stream 4K Video in Every Room</p>
+        </div>
+        <div class="box">
+          <h6>Blink</h6>
+          <p>Smart Security for Every Home</p>
+        </div>
+        <div class="box">
+          <h6>Neighbors App</h6>
+          <p>Real-Time Crime & Safety Alerts</p>
+        </div>
+        <div class="box">
+          <h6>Amazon Subscription Boxes</h6>
+          <p>Top subscription boxes – right to your door</p>
+        </div>
+        <div class="box">
+          <h6>PillPack</h6>
+          <p>Pharmacy Simplified</p>
+        </div>
+        <div class="box"></div>
+      </div>
+      <div class="t_c">
+        <div class="list1">
+          <ul>
+            <li>Conditions of Use</li>
+            <li>Privacy Notice</li>
+            <li>Consumer Health Data Privacy Disclosure</li>
+            <li>Your Ads Privacy Choices</li>
+            <li>Your Ads Privacy Choices</li>
+          </ul>
+        </div>
+        <div class="list2">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+      </div>
+    </div>
+    <div class="sec4"></div>
+    <div class="sec5"></div>
+  </footer>
+</html>
